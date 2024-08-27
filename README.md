@@ -23,4 +23,4 @@ Entrada |	Saída
 --------|--------
 movel <br> Alice,movel,fixa	| Sim
 fixa <br> Bob,movel,tv	| Nao
-tv <br> Carol,movel,fixa,tv | Sim# Bootcamp---Claro---Java-com-Spring-Boot
+tv <br> Carol,movel,fixa,tv | Sim
