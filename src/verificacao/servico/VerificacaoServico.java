@@ -1,3 +1,5 @@
+package verificacao.servico;
+
 import java.util.Scanner;
 
 public class VerificacaoServico {
