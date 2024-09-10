@@ -1,0 +1,41 @@
+package velocidade.media.queda.conexao;
+
+import java.util.Scanner;
+
+public class Main {
+
+    // TODO: Preencha a função para verificar queda de conexão
+    public static String verificarQuedaConexao(String[] velocidades) {
+
+        String mensagem = null;
+        for (String velocidade : velocidades) {
+            int velocidadeInteiro = Integer.parseInt(velocidade.trim());
+            if (velocidadeInteiro == 0) {
+                mensagem = "Queda de Conexão";
+                break;
+            } else {
+                mensagem = "Sem Queda";
+            }
+        }
+        return mensagem;
+    }
+
+
+    public static void main (String[]args){
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitando ao usuário a lista de velocidades de conexão registradas a cada hora
+        String input = scanner.nextLine();
+
+        // Convertendo a entrada em uma lista de strings
+        String[] velocidades = input.split(",");
+
+        // Verificando se houve queda de conexão
+        String resultado = verificarQuedaConexao(velocidades);
+
+        // Exibindo o resultado da verificação
+        System.out.println(resultado);
+
+        scanner.close();
+    }
+}
