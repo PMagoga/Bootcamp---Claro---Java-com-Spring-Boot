@@ -20,7 +20,7 @@ Para validar o formato do endpoint, você deve usar uma expressão regular. A ex
 
 ##### Exemplo de Expressão Regular:
 
-* Expressão Regular: {c:red}<code> ^/api/\w+(/\w+)*$ </code>{/c}
+* Expressão Regular: <font color=\"red\">^/api/\w+(/\w+)*$</font>
 
 * <code>^/api/</code> - O endpoint deve começar com /api/.
 
