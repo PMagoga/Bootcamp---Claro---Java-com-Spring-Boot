@@ -1,4 +1,4 @@
-package explorandoapi;
+package explorandoapi.validaendpoint;
 
 import java.util.Scanner;
 
