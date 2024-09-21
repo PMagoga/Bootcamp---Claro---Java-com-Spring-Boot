@@ -10,10 +10,12 @@ public class CpuTemperatureMonitor {
         for (String reading : readings) {
             int temperature = Integer.parseInt(reading.trim());
             // TODO: Comparar a temperatura convertida com maxTemperature e atualizar maxTemperature se a leitura atual for maior.
-
+            if (temperature > maxTemperature) {
+                maxTemperature = temperature;
+            }
         }
-
         // TODO: Retorne a maior temperatura:
+        return "Maior temperatura: " + maxTemperature + "°C";
 
     }
 
