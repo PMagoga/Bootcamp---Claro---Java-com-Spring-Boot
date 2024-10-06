@@ -1,4 +1,4 @@
-package fundamentosdados.funcionarios;
+package fundamentosdados.collections.list;
 
 import java.util.*;
 
